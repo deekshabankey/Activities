@@ -1,5 +1,5 @@
 """
-Factor:  Calculate temperature that a person feels because of the wind (Python3)
+Earthquake:  Calculate temperature that a person feels because of the wind (Python3)
 """
 
 a=float(input())
