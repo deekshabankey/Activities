@@ -11,10 +11,6 @@ message and checks whether the number of letters is less than 200 or above. If t
 
 
 If the length of the chat is greater than 200, data consisting of only the first 200 characters should be returned.
-
-
-(b) How one can check if the restriction is on a number of words rather than letters?
-Write a function that allows a message with only 30 words.
 """
 n=str(input())
 def check(n):
