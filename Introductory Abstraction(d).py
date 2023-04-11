@@ -3,21 +3,21 @@ Factor:  Calculate temperature that a person feels because of the wind (Python3)
 """
 def Earthquake(a):
     if a<=0:
-        print("No Earthquake")
+        return"No Earthquake"
     elif a>0 and a<2:
-        print("Micro Earthquake")
+        return"Micro Earthquake"
     elif a>=2 and a<3:
-        print("Very Mionr Earthquake")
+        "Very Mionr Earthquake"
     elif a>=3 and a<4:
-        print("Minor Earthquake")
+        return "Minor Earthquake"
     elif a>=4 and a<5:
-        print("Light Earthquake")
+        return "Light Earthquake"
     elif a>=5 and a<6:
-        print("Moderate Earthquake")
+        return "Moderate Earthquake"
     elif a>=6 and a<7:
-        print("Strong Earthquake")
+        return "Strong Earthquake"
     elif a>=7 and a<8:
-        print("Major Earthquake")
+        return "Major Earthquake"
     else:
-        print("Great Earthquake")
+        return "Great Earthquake"
 print(Earthquake(1))
